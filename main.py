@@ -1,9 +1,12 @@
 import sqlite3
 import os 
 from secrets import ADMIN_PASSWORD 
+<<<<<<< HEAD
 from new_password import new_password
 from see_all import see_all
 from delete_by_website import delete
+=======
+>>>>>>> parent of 675882d... adding new files
 
 # only 3 attempts 
 attempts = 0
@@ -41,7 +44,7 @@ while True:
     if user_input == "s":
         see_all()
     elif user_input == "n":
-        new_password()
+        pass
     elif user_input == "d":
         delete()
     elif user_input == "q":
