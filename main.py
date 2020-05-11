@@ -1,12 +1,10 @@
 import sqlite3
 import os 
 from secrets import ADMIN_PASSWORD 
-<<<<<<< HEAD
 from new_password import new_password
 from see_all import see_all
 from delete_by_website import delete
-=======
->>>>>>> parent of 675882d... adding new files
+
 
 # only 3 attempts 
 attempts = 0
