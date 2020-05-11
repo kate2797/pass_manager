@@ -3,13 +3,10 @@ import os
 from secrets import ADMIN_PASSWORD 
 <<<<<<< HEAD
 from new_password import new_password
-<<<<<<< HEAD
 from see_all import see_all
 from delete_by_website import delete
 =======
 >>>>>>> parent of 675882d... adding new files
-=======
->>>>>>> parent of 340a262... final commit
 
 # only 3 attempts 
 attempts = 0
@@ -36,20 +33,20 @@ print(connect_to_db)
 
 while True:
     os.system('clear')
-    print("Welcome to the Password Manager")
+    print("Welcome to Password Manager \n")
     print("COMMANDS:")
     print("s -> See all passwords")
     print("n -> Add new password")
     print("d -> Delete password")
-    print("q -> Quit Password Manager")
+    print("q -> Quit Password Manager \n")
 
     user_input = input("Enter a command: ")
     if user_input == "s":
-        pass
+        see_all()
     elif user_input == "n":
         pass
     elif user_input == "d":
-        pass
+        delete()
     elif user_input == "q":
         break 
 
