@@ -42,7 +42,7 @@ while True:
     if user_input == "s":
         see_all()
     elif user_input == "n":
-        pass
+        new_password()
     elif user_input == "d":
         delete()
     elif user_input == "q":

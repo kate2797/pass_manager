@@ -13,4 +13,6 @@ def new_password():
         (website, username, password) VALUES
         (?, ?, ?)
         """, (website, username, password))
+    print("Your password was successfully added\n")
     connect_to_db.commit()
+    input("Press Enter to Exit")
