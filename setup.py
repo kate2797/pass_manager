@@ -7,7 +7,6 @@ print(connect_me)
 c = connect_me.cursor()
 
 c.execute(""" CREATE TABLE passwords
-    (id PRIMARY KEY,
-    website TEXT,
+    (website TEXT,
     username TEXT,
     password TEXT)""")
