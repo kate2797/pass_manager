@@ -1,6 +1,7 @@
 import sqlite3
 import os 
 from secrets import ADMIN_PASSWORD 
+from new_password import new_password
 
 # only 3 attempts 
 attempts = 0
@@ -38,7 +39,7 @@ while True:
     if user_input == "s":
         pass
     elif user_input == "n":
-        pass
+        new_password()
     elif user_input == "d":
         pass
     elif user_input == "q":
