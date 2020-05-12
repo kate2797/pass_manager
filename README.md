@@ -2,4 +2,4 @@
 A simple Python program for locally storing, displaying and deleting saved passwords. 
 
 # Preview
-<img src="cover1.png" height="460">
+<img src="cover.png" height="480">
