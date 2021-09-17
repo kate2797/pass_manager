@@ -1,5 +1,11 @@
-# Password Manager 🔐
-A simple Python program for storing, displaying and deleting saved passwords – no commercial app is safer than a simple locally-stored program protected by a memorable master password.
+# Password Manager
 
-# Preview
+## General info
+A simple Python program to store, display, and delete saved passwords. No commercial application is safer than a simple locally stored program protected by a memorable master password.
+
+## Technologies
+- Python 3
+- sqlite3
+
+## Preview
 <img src="cover.png" height="480">
